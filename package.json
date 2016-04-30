@@ -1,0 +1,37 @@
+{
+  "name": "deep-for-each",
+  "version": "0.1.0",
+  "description": "Calculates the weighted mean of an array of numbers",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint '{*.js,lib/**/*.js,test/**/*.js}' --ignore-pattern *.umd.js",
+    "test": "mocha --bail",
+    "test-cov": "istanbul cover --dir test/coverage _mocha -- --bail -t 15000 && echo Coverage lies in test/coverage/lcov-report/index.html",
+    "test-travis": "istanbul cover _mocha --report lcovonly -- --bail -t 15000 && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "browserify": "browserify -s weighted-mean index.js > index.umd.js"
+  },
+  "bugs": {
+    "url": "https://github.com/IndigoUnited/weighted-mean/issues/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/IndigoUnited/weighted-mean.git"
+  },
+  "keywords": [
+    "mean",
+    "weight",
+    "avg",
+    "average"
+  ],
+  "author": "IndigoUnited <hello@indigounited.com> (http://indigounited.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "@satazor/eslint-config": "^2.0.0",
+    "browserify": "^13.0.0",
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "eslint": "^2.2.0",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.1.0"
+  }
+}
