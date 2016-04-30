@@ -11,11 +11,11 @@
     "browserify": "browserify -s weighted-mean index.js > index.umd.js"
   },
   "bugs": {
-    "url": "https://github.com/IndigoUnited/weighted-mean/issues/"
+    "url": "https://github.com/IndigoUnited/js-weighted-mean/issues/"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/IndigoUnited/weighted-mean.git"
+    "url": "git://github.com/IndigoUnited/js-weighted-mean.git"
   },
   "keywords": [
     "mean",
