@@ -7,8 +7,8 @@
 [npm-image]:http://img.shields.io/npm/v/weighted-mean.svg
 [travis-url]:https://travis-ci.org/IndigoUnited/js-weighted-mean
 [travis-image]:http://img.shields.io/travis/IndigoUnited/js-weighted-mean/master.svg
-[coveralls-url]:https://coveralls.io/r/IndigoUnited/node-couchdb-force
-[coveralls-image]:https://img.shields.io/coveralls/IndigoUnited/node-couchdb-force/master.svg
+[coveralls-url]:https://coveralls.io/r/IndigoUnited/js-weighted-mean
+[coveralls-image]:https://img.shields.io/coveralls/IndigoUnited/js-weighted-mean/master.svg
 [david-dm-url]:https://david-dm.org/IndigoUnited/js-weighted-mean
 [david-dm-image]:https://img.shields.io/david/IndigoUnited/js-weighted-mean.svg
 [david-dm-dev-url]:https://david-dm.org/IndigoUnited/js-weighted-mean#info=devDependencies
