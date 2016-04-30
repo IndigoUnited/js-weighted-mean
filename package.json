@@ -1,5 +1,5 @@
 {
-  "name": "deep-for-each",
+  "name": "weighted-mean",
   "version": "1.0.0",
   "description": "Calculates the weighted mean of an array of numbers",
   "main": "index.js",
