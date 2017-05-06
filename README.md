@@ -11,7 +11,7 @@
 [coveralls-image]:https://img.shields.io/coveralls/IndigoUnited/js-weighted-mean/master.svg
 [david-dm-url]:https://david-dm.org/IndigoUnited/js-weighted-mean
 [david-dm-image]:https://img.shields.io/david/IndigoUnited/js-weighted-mean.svg
-[david-dm-dev-url]:https://david-dm.org/IndigoUnited/js-weighted-mean#info=devDependencies
+[david-dm-dev-url]:https://david-dm.org/IndigoUnited/js-weighted-mean?type=dev
 [david-dm-dev-image]:https://img.shields.io/david/dev/IndigoUnited/js-weighted-mean.svg
 
 Calculates the weighted mean of an array of numbers.
